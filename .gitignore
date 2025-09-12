@@ -1,0 +1,21 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore dataset and models
+data/
+datasets/
+*.h5
+*.pt
+*.pkl
+*.zip
+*.rar
+*.tar
+*.gz
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/ 
