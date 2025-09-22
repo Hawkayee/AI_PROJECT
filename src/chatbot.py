@@ -7,7 +7,7 @@ def initialize_gemini():
     try:
         # --- MODIFICATION: This now exclusively uses the environment variable ---
         # It will fail safely if the key is not set.
-        API_KEY = os.environ.get("AIzaSyC0FggkkDlfhCJpL6ECEhn6-vWBQx9VodM")
+        API_KEY = os.environ.get("")
         if not API_KEY:
             print("ERROR: GEMINI_API_KEY environment variable not set.")
             return None
