@@ -25,7 +25,7 @@ classes_path = 'ml_models/classes.json'
 # ----------------- Gemini API Setup -----------------
 try:
     # IMPORTANT: It's better to load keys from environment variables
-    API_KEY = "AIzaSyC0FggkkDlfhCJpL6ECEhn6-vWBQx9VodM" # Replace with your actual key
+    API_KEY = "" # Replace with your actual key
     genai.configure(api_key=API_KEY)
     model_gemini = genai.GenerativeModel("gemini-1.5-flash")
 except Exception as e:
