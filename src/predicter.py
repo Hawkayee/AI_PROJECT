@@ -12,7 +12,7 @@ import sys
 from ultralytics import YOLO
 
 # ------------------- Gemini API Setup -------------------
-genai.configure(api_key="AIzaSyC0FggkkDlfhCJpL6ECEhn6-vWBQx9VodM")
+genai.configure(api_key="")
 model_gemini = genai.GenerativeModel("gemini-1.5-flash") # Corrected model name for consistency
 
 # ------------------- Paths -------------------
